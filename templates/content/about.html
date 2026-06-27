@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}About — {{ site_name }}{% endblock %}
+{% block body %}
+<article class="max-w-2xl mx-auto prose prose-stone">
+<h1>About {{ site_name }}</h1>
+
+<p>I'm Lala C — an independent analyst. I built this because, when I started looking at
+Singapore P1 ballot data for my own family, I couldn't find one place that gave straight
+answers. MOE publishes the figures. Schlah ranks the schools. KiasuParents has the
+arguments. Nobody connects them <em>to your specific case</em>.</p>
+
+<p>So I built that — first for myself, now for anyone who wants it. The model walks every
+MOE admission phase that applies to your family, ranks schools by realistic odds, and
+projects where each school's subscription is heading over the next 2-3 years.</p>
+
+<h2>What this is, and isn't</h2>
+<ul>
+  <li><strong>This is:</strong> data-driven analysis based on public MOE statistics.
+      Personalised to your profile. Independent.</li>
+  <li><strong>This isn't:</strong> affiliated with MOE or any school. Not a guarantee.
+      Not a substitute for visiting schools or talking to other parents.</li>
+</ul>
+
+<h2>How I make money</h2>
+<p>The basic odds calculator is free, forever. If you want a full PDF report or a 1:1
+strategy session, those are paid. That's it — no ads, no tracking, no selling your data.</p>
+
+<h2>Why I'm anonymous-ish</h2>
+<p>Lala C is a pen name. I keep my professional identity separate from this project so I
+can speak plainly without worrying about my day job. Everything you read here is my own
+view, on my own time, with my own money.</p>
+
+<h2>Contact</h2>
+<p>Email <a href="mailto:{{ contact_email }}">{{ contact_email }}</a>. I read everything.</p>
+</article>
+{% endblock %}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site_name }} — SG P1 Ballot Odds{% endblock %}</title>
+  <meta name="description" content="{% block desc %}Personalised Singapore Primary 1 ballot odds for SC and PR parents. Independent, data-driven analysis based on MOE public statistics.{% endblock %}">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+  {% block schema %}{% endblock %}
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased">
+
+<header class="border-b border-stone-200 bg-white">
+  <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="/" class="text-xl font-semibold tracking-tight">{{ site_name }}</a>
+    <nav class="hidden sm:flex gap-6 text-sm">
+      <a href="/tool" class="hover:underline">Tool</a>
+      <a href="/case-studies" class="hover:underline">Case studies</a>
+      <a href="/methodology" class="hover:underline">Methodology</a>
+      <a href="/faq" class="hover:underline">FAQ</a>
+      <a href="/about" class="hover:underline">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="max-w-5xl mx-auto px-4 py-10">
+  {% block body %}{% endblock %}
+</main>
+
+<footer class="mt-16 border-t border-stone-200 bg-white">
+  <div class="max-w-5xl mx-auto px-4 py-8 text-sm text-stone-600 space-y-3">
+    <p>
+      <strong>{{ site_name }}</strong> is an independent analysis service. We are
+      <em>not affiliated</em> with the Singapore Ministry of Education or any individual school.
+      All ballot figures are sourced from MOE public statistics. Odds are estimates based on
+      historical data and modelling assumptions; actual admission outcomes are determined by MOE alone.
+    </p>
+    <p>
+      Data as of: <time datetime="{{ as_of_year }}-08-01">{{ as_of_year }}</time>.
+    </p>
+    <p class="flex flex-wrap gap-x-4 gap-y-1">
+      <a href="/privacy" class="hover:underline">Privacy</a>
+      <a href="/terms" class="hover:underline">Terms</a>
+      <a href="/disclaimer" class="hover:underline">Disclaimer</a>
+      <a href="/contact" class="hover:underline">Contact</a>
+      <a href="mailto:{{ takedown_email }}" class="hover:underline">Takedown / corrections</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

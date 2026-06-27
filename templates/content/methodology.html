@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}Methodology — {{ site_name }}{% endblock %}
+{% block body %}
+<article class="max-w-2xl mx-auto prose prose-stone">
+<h1>Methodology</h1>
+
+<p>Everything below is open. If you spot an error,
+<a href="mailto:{{ takedown_email }}">email me</a> — I correct within 48 hours.</p>
+
+<h2>1. Data sources</h2>
+<ul>
+  <li><strong>MOE Phase 2C ballot results</strong> — published annually each August.
+      Vacancies, applicants, admitted, and the "indicator" (which distance/citizenship
+      bucket had to ballot for the last seats).</li>
+  <li><strong>SC Schooling</strong> — aggregator of the above; I cite it where I rely on
+      its derived figures, but every number traces back to MOE.</li>
+  <li><strong>OneMap (data.gov.sg)</strong> — official government API for postal-code →
+      coordinates → distance to schools.</li>
+  <li><strong>SingStat</strong> — births by planning area; informs the cohort projection layer.</li>
+  <li><strong>URA + HDB</strong> — planning-area boundaries and BTO completion schedules;
+      informs medium-term demand projection.</li>
+</ul>
+
+<h2>2. The MOE phase priority order</h2>
+<p>P1 admission walks through phases in order:</p>
+<ol>
+  <li><strong>Phase 1</strong> — sibling currently in the school (Singapore Citizens).</li>
+  <li><strong>Phase 2A1</strong> — sibling currently in school <em>or</em> parent alumnus
+      (members of school's alumni association).</li>
+  <li><strong>Phase 2A2</strong> — parent is school staff, or MOE staff.</li>
+  <li><strong>Phase 2B</strong> — parent volunteer (PVP 40+ hours), clan/religious
+      affiliation, or active community-leader status.</li>
+  <li><strong>Phase 2C</strong> — everyone else, with this internal priority order when
+      balloting is needed:
+      <ol>
+        <li>SC &lt;1km</li>
+        <li>SC 1–2km</li>
+        <li>SC &gt;2km</li>
+        <li>PR &lt;1km</li>
+        <li>PR 1–2km</li>
+        <li>PR &gt;2km</li>
+      </ol>
+  </li>
+  <li><strong>Phase 2C Supplementary</strong> — leftover Phase 2C; foreigners participate here.</li>
+  <li><strong>Phase 3</strong> — non-citizen / non-PR foreigners.</li>
+</ol>
+
+<h2>3. How odds are computed</h2>
+<p>For each school × your profile:</p>
+<ol>
+  <li>Filter for gender compatibility (single-gender schools).</li>
+  <li>If you qualify for Phase 1 / 2A1 / 2A2 / 2B → near-certain admission, high odds.</li>
+  <li>Otherwise, fall through to Phase 2C. Compute your bucket (SC or PR × distance band).</li>
+  <li>Compare your bucket to the most recent year's "indicator". If you rank above the
+      indicator → walk in. Below → shut out. Equal → ballot (50% baseline, refined by
+      MOE-published bucket-specific ballot chance where available).</li>
+</ol>
+
+<h2>4. Projection model (v1)</h2>
+<p>For each school, I fit a simple OLS regression on (year, subscription %) for the
+historical years available, then project forward. I report:</p>
+<ul>
+  <li>Projected subscription % for your target year, with a ±band based on YoY volatility.</li>
+  <li>Projected indicator category (open / PR-balloted / SC-balloted), using the mode of
+      the last 3 historical categories with a recency tiebreak.</li>
+  <li>Confidence (high / medium / low) based on data points available and volatility.</li>
+</ul>
+<p>This is intentionally simple. Future versions will layer in birth-cohort and BTO data.</p>
+
+<h2>5. What I don't model (yet)</h2>
+<ul>
+  <li>School quality / sentiment / reviews — too subjective and too prone to complaints.</li>
+  <li>Property prices — important but not in v1.</li>
+  <li>Specific MOE policy shocks — flagged in commentary, not in the model.</li>
+</ul>
+
+<h2>6. Refresh cadence</h2>
+<p>MOE data refreshed annually in August. Projection model re-run on every data refresh.
+Last update: <time datetime="{{ as_of_year }}-08-01">{{ as_of_year }}</time>.</p>
+</article>
+{% endblock %}

@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# Refuses to commit .env files or strings that look like API keys.
+# Install once:  git config core.hooksPath .githooks
+set -euo pipefail
+
+staged=$(git diff --cached --name-only --diff-filter=ACM)
+
+if [ -z "$staged" ]; then
+  exit 0
+fi
+
+fail() {
+  echo "❌ pre-commit blocked: $*" >&2
+  exit 1
+}
+
+# 1. Block any .env file
+echo "$staged" | grep -E '(^|/)\.env(\..*)?$' && fail "tried to commit a .env file"
+
+# 2. Scan staged content for common secret patterns
+# Read only the staged hunks (not the whole file) for performance.
+while IFS= read -r file; do
+  # Skip binaries
+  if file --mime "$file" 2>/dev/null | grep -q binary; then
+    continue
+  fi
+  diff_content=$(git diff --cached "$file" || true)
+  if [ -z "$diff_content" ]; then
+    continue
+  fi
+  # Stripe live keys
+  echo "$diff_content" | grep -E 'sk_live_[0-9a-zA-Z]{20,}' && fail "Stripe live secret key in $file"
+  # AWS access keys
+  echo "$diff_content" | grep -E 'AKIA[0-9A-Z]{16}' && fail "AWS access key in $file"
+  # OneMap-style bearer / JWTs longer than 60 chars after eyJ
+  echo "$diff_content" | grep -E 'eyJ[A-Za-z0-9_-]{60,}\.[A-Za-z0-9_-]{20,}' && fail "looks like a JWT/bearer token in $file"
+  # Generic "API_KEY = '...'"" with long value
+  echo "$diff_content" | grep -Ei '(api[_-]?key|secret|token|password)\s*[:=]\s*["'\''][^"'\'']{24,}["'\'']' \
+    && fail "looks like an inline secret assignment in $file"
+done <<< "$staged"
+
+exit 0

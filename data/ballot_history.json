@@ -1,0 +1,1738 @@
+{
+  "ai-tong": {
+    "2020": {
+      "vacancy": 20,
+      "applied": 64,
+      "taken": 20,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 20,
+      "applied": 66,
+      "taken": 20,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 42,
+      "applied": 86,
+      "taken": 42,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 45,
+      "applied": 78,
+      "taken": 45,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 41,
+      "applied": 94,
+      "taken": 41,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 48,
+      "bucket_applicants": 85,
+      "bucket_vacancies": 41
+    },
+    "2025": {
+      "vacancy": 43,
+      "applied": 81,
+      "taken": 43,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 57,
+      "bucket_applicants": 76,
+      "bucket_vacancies": 43
+    }
+  },
+  "catholic-high": {
+    "2020": {
+      "vacancy": 21,
+      "applied": 47,
+      "taken": 21,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 21,
+      "applied": 48,
+      "taken": 21,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 40,
+      "applied": 68,
+      "taken": 40,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 40,
+      "applied": 52,
+      "taken": 40,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 46,
+      "applied": 54,
+      "taken": 46,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 96,
+      "bucket_applicants": 48,
+      "bucket_vacancies": 46
+    },
+    "2025": {
+      "vacancy": 40,
+      "applied": 72,
+      "taken": 40,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 59,
+      "bucket_applicants": 68,
+      "bucket_vacancies": 40
+    }
+  },
+  "kuo-chuan-presbyterian": {
+    "2020": {
+      "vacancy": 37,
+      "applied": 50,
+      "taken": 37,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 66,
+      "applied": 91,
+      "taken": 66,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 67,
+      "applied": 86,
+      "taken": 67,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 67,
+      "applied": 76,
+      "taken": 67,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 44,
+      "applied": 76,
+      "taken": 44,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 81,
+      "bucket_applicants": 54,
+      "bucket_vacancies": 44
+    },
+    "2025": {
+      "vacancy": 59,
+      "applied": 113,
+      "taken": 59,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 63,
+      "bucket_applicants": 94,
+      "bucket_vacancies": 59
+    }
+  },
+  "cedar": {
+    "2020": {
+      "vacancy": 175,
+      "applied": 41,
+      "taken": 41,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 193,
+      "applied": 72,
+      "taken": 72,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 187,
+      "applied": 42,
+      "taken": 42,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 151,
+      "applied": 38,
+      "taken": 38,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 172,
+      "applied": 61,
+      "taken": 61,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 146,
+      "applied": 57,
+      "taken": 57,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "chij-toa-payoh": {
+    "2020": {
+      "vacancy": 35,
+      "applied": 49,
+      "taken": 35,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 44,
+      "applied": 57,
+      "taken": 44,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 54,
+      "applied": 68,
+      "taken": 54,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 55,
+      "applied": 69,
+      "taken": 55,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 41,
+      "applied": 83,
+      "taken": 41,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 66,
+      "bucket_applicants": 62,
+      "bucket_vacancies": 41
+    },
+    "2025": {
+      "vacancy": 49,
+      "applied": 77,
+      "taken": 49,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 83,
+      "bucket_applicants": 59,
+      "bucket_vacancies": 49
+    }
+  },
+  "first-toa-payoh": {
+    "2020": {
+      "vacancy": 160,
+      "applied": 16,
+      "taken": 16,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 182,
+      "applied": 19,
+      "taken": 19,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 127,
+      "applied": 4,
+      "taken": 4,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 119,
+      "applied": 9,
+      "taken": 9,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 116,
+      "applied": 17,
+      "taken": 17,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 151,
+      "applied": 10,
+      "taken": 10,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "kheng-cheng": {
+    "2020": {
+      "vacancy": 132,
+      "applied": 140,
+      "taken": 132,
+      "sc_indicator": "PR<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 94,
+      "applied": 127,
+      "taken": 94,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 141,
+      "applied": 111,
+      "taken": 111,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 121,
+      "applied": 110,
+      "taken": 110,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 162,
+      "applied": 128,
+      "taken": 128,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 162,
+      "applied": 173,
+      "taken": 162,
+      "sc_indicator": "PR1-2",
+      "ballot_chance_pct": 59,
+      "bucket_applicants": 17,
+      "bucket_vacancies": 10
+    }
+  },
+  "maris-stella-high": {
+    "2020": {
+      "vacancy": 51,
+      "applied": 64,
+      "taken": 51,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 62,
+      "applied": 72,
+      "taken": 62,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 56,
+      "applied": 93,
+      "taken": 56,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 55,
+      "applied": 77,
+      "taken": 55,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 67,
+      "applied": 101,
+      "taken": 67,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 72,
+      "bucket_applicants": 93,
+      "bucket_vacancies": 67
+    },
+    "2025": {
+      "vacancy": 62,
+      "applied": 124,
+      "taken": 62,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 54,
+      "bucket_applicants": 115,
+      "bucket_vacancies": 62
+    }
+  },
+  "marymount-convent": {
+    "2020": {
+      "vacancy": 183,
+      "applied": 72,
+      "taken": 72,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 166,
+      "applied": 93,
+      "taken": 93,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 188,
+      "applied": 68,
+      "taken": 68,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 188,
+      "applied": 56,
+      "taken": 56,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 195,
+      "applied": 34,
+      "taken": 34,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 206,
+      "applied": 55,
+      "taken": 55,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "pei-chun-public": {
+    "2020": {
+      "vacancy": 21,
+      "applied": 68,
+      "taken": 21,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 21,
+      "applied": 43,
+      "taken": 21,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 45,
+      "applied": 83,
+      "taken": 45,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 52,
+      "applied": 81,
+      "taken": 52,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 57,
+      "applied": 67,
+      "taken": 57,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 85,
+      "bucket_applicants": 67,
+      "bucket_vacancies": 57
+    },
+    "2025": {
+      "vacancy": 45,
+      "applied": 94,
+      "taken": 45,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 48,
+      "bucket_applicants": 94,
+      "bucket_vacancies": 45
+    }
+  },
+  "st-andrew-junior": {
+    "2020": {
+      "vacancy": 89,
+      "applied": 122,
+      "taken": 89,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 64,
+      "applied": 105,
+      "taken": 64,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 82,
+      "applied": 124,
+      "taken": 82,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 103,
+      "applied": 113,
+      "taken": 103,
+      "sc_indicator": "SC>2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 92,
+      "applied": 130,
+      "taken": 92,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 95,
+      "bucket_applicants": 97,
+      "bucket_vacancies": 92
+    },
+    "2025": {
+      "vacancy": 84,
+      "applied": 104,
+      "taken": 84,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 99,
+      "bucket_applicants": 85,
+      "bucket_vacancies": 84
+    }
+  },
+  "anderson": {
+    "2020": {
+      "vacancy": 38,
+      "applied": 65,
+      "taken": 38,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 52,
+      "applied": 75,
+      "taken": 52,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 64,
+      "applied": 88,
+      "taken": 64,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 74,
+      "applied": 92,
+      "taken": 74,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 60,
+      "applied": 64,
+      "taken": 60,
+      "sc_indicator": "PR<1",
+      "ballot_chance_pct": 60,
+      "bucket_applicants": 5,
+      "bucket_vacancies": 3
+    },
+    "2025": {
+      "vacancy": 65,
+      "applied": 91,
+      "taken": 65,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": 71,
+      "bucket_applicants": 17,
+      "bucket_vacancies": 12
+    }
+  },
+  "ang-mo-kio": {
+    "2020": {
+      "vacancy": 143,
+      "applied": 39,
+      "taken": 39,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 181,
+      "applied": 50,
+      "taken": 50,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 149,
+      "applied": 49,
+      "taken": 49,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 85,
+      "applied": 29,
+      "taken": 29,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 77,
+      "applied": 34,
+      "taken": 34,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 123,
+      "applied": 36,
+      "taken": 36,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "chij-st-nicholas-girls": {
+    "2020": {
+      "vacancy": 21,
+      "applied": 49,
+      "taken": 21,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 20,
+      "applied": 61,
+      "taken": 20,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 40,
+      "applied": 63,
+      "taken": 40,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 40,
+      "applied": 84,
+      "taken": 40,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 40,
+      "applied": 60,
+      "taken": 40,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 85,
+      "bucket_applicants": 47,
+      "bucket_vacancies": 40
+    },
+    "2025": {
+      "vacancy": 41,
+      "applied": 71,
+      "taken": 41,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 62,
+      "bucket_applicants": 66,
+      "bucket_vacancies": 41
+    }
+  },
+  "jing-shan": {
+    "2020": {
+      "vacancy": 79,
+      "applied": 60,
+      "taken": 60,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 75,
+      "applied": 72,
+      "taken": 72,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 72,
+      "applied": 67,
+      "taken": 67,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 61,
+      "applied": 62,
+      "taken": 61,
+      "sc_indicator": "PR<1#",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 60,
+      "applied": 71,
+      "taken": 60,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": 43,
+      "bucket_applicants": 7,
+      "bucket_vacancies": 3
+    },
+    "2025": {
+      "vacancy": 60,
+      "applied": 50,
+      "taken": 50,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "mayflower": {
+    "2020": {
+      "vacancy": 132,
+      "applied": 30,
+      "taken": 30,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 132,
+      "applied": 34,
+      "taken": 34,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 115,
+      "applied": 38,
+      "taken": 38,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 121,
+      "applied": 30,
+      "taken": 30,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 95,
+      "applied": 21,
+      "taken": 21,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 91,
+      "applied": 26,
+      "taken": 26,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "teck-ghee": {
+    "2020": {
+      "vacancy": 96,
+      "applied": 119,
+      "taken": 96,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 110,
+      "applied": 93,
+      "taken": 93,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 118,
+      "applied": 92,
+      "taken": 92,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 84,
+      "applied": 64,
+      "taken": 64,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 80,
+      "applied": 73,
+      "taken": 73,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 137,
+      "applied": 76,
+      "taken": 76,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "ngee-ann": {
+    "2020": {
+      "vacancy": 107,
+      "applied": 116,
+      "taken": 107,
+      "sc_indicator": "PR>2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 120,
+      "applied": 141,
+      "taken": 120,
+      "sc_indicator": "PR<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 123,
+      "applied": 128,
+      "taken": 123,
+      "sc_indicator": "PR<2#",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 122,
+      "applied": 122,
+      "taken": 122,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 128,
+      "applied": 105,
+      "taken": 105,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 127,
+      "applied": 148,
+      "taken": 127,
+      "sc_indicator": "PR<1",
+      "ballot_chance_pct": 31,
+      "bucket_applicants": 16,
+      "bucket_vacancies": 5
+    }
+  },
+  "tanjong-katong": {
+    "2020": {
+      "vacancy": 89,
+      "applied": 114,
+      "taken": 89,
+      "sc_indicator": "SC>2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 78,
+      "applied": 94,
+      "taken": 78,
+      "sc_indicator": "SC>2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 75,
+      "applied": 98,
+      "taken": 75,
+      "sc_indicator": "SC>2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 87,
+      "applied": 108,
+      "taken": 87,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 73,
+      "applied": 104,
+      "taken": 73,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": 93,
+      "bucket_applicants": 28,
+      "bucket_vacancies": 26
+    },
+    "2025": {
+      "vacancy": 53,
+      "applied": 83,
+      "taken": 53,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": 57,
+      "bucket_applicants": 23,
+      "bucket_vacancies": 13
+    }
+  },
+  "tao-nan": {
+    "2020": {
+      "vacancy": 21,
+      "applied": 75,
+      "taken": 21,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 23,
+      "applied": 48,
+      "taken": 23,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 47,
+      "applied": 99,
+      "taken": 47,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 41,
+      "applied": 95,
+      "taken": 41,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 66,
+      "applied": 86,
+      "taken": 66,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 85,
+      "bucket_applicants": 78,
+      "bucket_vacancies": 66
+    },
+    "2025": {
+      "vacancy": 45,
+      "applied": 81,
+      "taken": 45,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 57,
+      "bucket_applicants": 79,
+      "bucket_vacancies": 45
+    }
+  },
+  "canossa-catholic": {
+    "2020": {
+      "vacancy": 67,
+      "applied": 59,
+      "taken": 59,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 92,
+      "applied": 59,
+      "taken": 59,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 64,
+      "applied": 60,
+      "taken": 60,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 50,
+      "applied": 56,
+      "taken": 50,
+      "sc_indicator": "SC<2#",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 67,
+      "applied": 32,
+      "taken": 32,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 60,
+      "applied": 34,
+      "taken": 34,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "geylang-methodist": {
+    "2020": {
+      "vacancy": 141,
+      "applied": 123,
+      "taken": 123,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 141,
+      "applied": 141,
+      "taken": 141,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 129,
+      "applied": 131,
+      "taken": 129,
+      "sc_indicator": "PR>2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 132,
+      "applied": 134,
+      "taken": 132,
+      "sc_indicator": "PR>2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 153,
+      "applied": 109,
+      "taken": 109,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 138,
+      "applied": 138,
+      "taken": 138,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "haig-girls": {
+    "2020": {
+      "vacancy": 102,
+      "applied": 117,
+      "taken": 102,
+      "sc_indicator": "PR<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 115,
+      "applied": 119,
+      "taken": 115,
+      "sc_indicator": "PR1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 127,
+      "applied": 117,
+      "taken": 117,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 97,
+      "applied": 108,
+      "taken": 97,
+      "sc_indicator": "PR<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 127,
+      "applied": 89,
+      "taken": 89,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 98,
+      "applied": 83,
+      "taken": 83,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "kong-hwa": {
+    "2020": {
+      "vacancy": 44,
+      "applied": 91,
+      "taken": 44,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 42,
+      "applied": 72,
+      "taken": 42,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 64,
+      "applied": 129,
+      "taken": 64,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 57,
+      "applied": 84,
+      "taken": 57,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 74,
+      "applied": 110,
+      "taken": 74,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 77,
+      "bucket_applicants": 96,
+      "bucket_vacancies": 74
+    },
+    "2025": {
+      "vacancy": 49,
+      "applied": 118,
+      "taken": 49,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 44,
+      "bucket_applicants": 112,
+      "bucket_vacancies": 49
+    }
+  },
+  "maha-bodhi": {
+    "2020": {
+      "vacancy": 60,
+      "applied": 105,
+      "taken": 60,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 50,
+      "applied": 71,
+      "taken": 50,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 79,
+      "applied": 114,
+      "taken": 79,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 63,
+      "applied": 82,
+      "taken": 63,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 76,
+      "applied": 96,
+      "taken": 76,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": 17,
+      "bucket_applicants": 24,
+      "bucket_vacancies": 4
+    },
+    "2025": {
+      "vacancy": 49,
+      "applied": 125,
+      "taken": 49,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 50,
+      "bucket_applicants": 98,
+      "bucket_vacancies": 49
+    }
+  },
+  "new-town": {
+    "2020": {
+      "vacancy": 220,
+      "applied": 27,
+      "taken": 27,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 225,
+      "applied": 24,
+      "taken": 24,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 173,
+      "applied": 20,
+      "taken": 20,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 164,
+      "applied": 19,
+      "taken": 19,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 141,
+      "applied": 26,
+      "taken": 26,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 178,
+      "applied": 21,
+      "taken": 21,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "cantonment": {
+    "2020": {
+      "vacancy": 160,
+      "applied": 44,
+      "taken": 44,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 177,
+      "applied": 66,
+      "taken": 66,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 136,
+      "applied": 43,
+      "taken": 43,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 100,
+      "applied": 40,
+      "taken": 40,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 109,
+      "applied": 23,
+      "taken": 23,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 116,
+      "applied": 29,
+      "taken": 29,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "chij-kellock": {
+    "2020": {
+      "vacancy": 109,
+      "applied": 104,
+      "taken": 104,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 119,
+      "applied": 81,
+      "taken": 81,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 123,
+      "applied": 77,
+      "taken": 77,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 128,
+      "applied": 49,
+      "taken": 49,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 140,
+      "applied": 52,
+      "taken": 52,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2025": {
+      "vacancy": 123,
+      "applied": 57,
+      "taken": 57,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "zhangde": {
+    "2020": {
+      "vacancy": 125,
+      "applied": 128,
+      "taken": 125,
+      "sc_indicator": "PR1-2",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 113,
+      "applied": 85,
+      "taken": 85,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 93,
+      "applied": 92,
+      "taken": 92,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 95,
+      "applied": 88,
+      "taken": 88,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 85,
+      "applied": 95,
+      "taken": 85,
+      "sc_indicator": "PR1-2",
+      "ballot_chance_pct": 20,
+      "bucket_applicants": 10,
+      "bucket_vacancies": 2
+    },
+    "2025": {
+      "vacancy": 87,
+      "applied": 74,
+      "taken": 74,
+      "sc_indicator": "",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    }
+  },
+  "fairfield-methodist": {
+    "2020": {
+      "vacancy": 27,
+      "applied": 64,
+      "taken": 27,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 24,
+      "applied": 72,
+      "taken": 24,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 41,
+      "applied": 89,
+      "taken": 41,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 40,
+      "applied": 66,
+      "taken": 40,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 45,
+      "applied": 78,
+      "taken": 45,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 88,
+      "bucket_applicants": 51,
+      "bucket_vacancies": 45
+    },
+    "2025": {
+      "vacancy": 42,
+      "applied": 70,
+      "taken": 42,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 89,
+      "bucket_applicants": 47,
+      "bucket_vacancies": 42
+    }
+  },
+  "radin-mas": {
+    "2020": {
+      "vacancy": 23,
+      "applied": 75,
+      "taken": 23,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2021": {
+      "vacancy": 39,
+      "applied": 76,
+      "taken": 39,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2022": {
+      "vacancy": 40,
+      "applied": 82,
+      "taken": 40,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2023": {
+      "vacancy": 54,
+      "applied": 81,
+      "taken": 54,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": null,
+      "bucket_applicants": null,
+      "bucket_vacancies": null
+    },
+    "2024": {
+      "vacancy": 52,
+      "applied": 76,
+      "taken": 52,
+      "sc_indicator": "SC1-2",
+      "ballot_chance_pct": 36,
+      "bucket_applicants": 36,
+      "bucket_vacancies": 13
+    },
+    "2025": {
+      "vacancy": 47,
+      "applied": 96,
+      "taken": 47,
+      "sc_indicator": "SC<1",
+      "ballot_chance_pct": 84,
+      "bucket_applicants": 56,
+      "bucket_vacancies": 47
+    }
+  }
+}

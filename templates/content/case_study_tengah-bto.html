@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Tengah BTO effect on 2028-2032 P1 demand — {{ site_name }}{% endblock %}
+{% block desc %}Forward-looking analysis of how Tengah's BTO completions will reshape P1 demand at neighbouring primary schools through 2032.{% endblock %}
+{% block body %}
+<article class="max-w-2xl mx-auto prose prose-stone">
+<h1>The Tengah BTO effect on 2028-2032 P1 demand</h1>
+<p class="text-stone-500">Analytical case study · published 2026 · sources: HDB, SingStat, MOE</p>
+
+<h2>Why Tengah matters</h2>
+<p>Tengah is Singapore's first major new town in three decades. ~42,000 BHD units
+planned across multiple BTO phases through 2030. Completed units start receiving
+keys from 2024-2025; full town population settles in by 2028-2030.</p>
+
+<p>For P1 admissions, this matters because:</p>
+<ul>
+  <li>Most BTO buyers are young families with children aged 0-5 at key collection.</li>
+  <li>P1 demand from these families lands 3-8 years after key collection.</li>
+  <li>The peak P1 demand impact is therefore 2027-2033 at Tengah-area schools.</li>
+</ul>
+
+<h2>The schools to watch</h2>
+<p>Tengah is in Jurong West planning area. The schools most likely to absorb the new
+families:</p>
+<ul>
+  <li><strong>Princess Elizabeth Primary</strong></li>
+  <li><strong>Westwood Primary</strong></li>
+  <li><strong>Shuqun Primary</strong></li>
+  <li>New schools to be announced as Tengah completes (MOE typically builds 1-2 new
+      primaries per major new-town development).</li>
+</ul>
+
+<p><em>v1 of this tool focuses on Central + East schools. Tengah-area schools are on
+the v1.1 expansion roadmap. This case study is for reference; actionable projections
+for Tengah-area schools require the v1.1 dataset.</em></p>
+
+<h2>What we can already say</h2>
+<ol>
+  <li><strong>Demand will rise.</strong> 42k units × ~30% with kids aged 0-5 at key
+      collection = ~12k future P1 applicants over the demand window — concentrated in
+      a small geographic area.</li>
+  <li><strong>Supply will rise too,</strong> but the lag is typically 1-3 years behind
+      demand. Expect "ballot squeeze" years in the early phase (2027-2029) before new
+      school capacity catches up.</li>
+  <li><strong>Existing Jurong West schools</strong> will absorb spillover. Schools
+      currently undersubscribed may flip to PR-balloted or even SC-balloted between
+      2028-2030.</li>
+  <li><strong>PR families considering Tengah</strong> should expect the area to behave
+      like a rapidly-tightening market. Plan for a Phase 2C ballot, not a walk-in.</li>
+</ol>
+
+<h2>Methodology — what we'll add for v1.1</h2>
+<ol>
+  <li>HDB BTO project completion data by phase, by year, by unit count.</li>
+  <li>SingStat household composition for new BTO completions (% with kids 0-7).</li>
+  <li>OneMap distance index from each new BTO project to surrounding primaries.</li>
+  <li>Regression: school-level P1 applications vs. lagged BTO completions in 5km radius.</li>
+  <li>Forward projection with policy uncertainty.</li>
+</ol>
+
+<p>Want this for your specific BTO project? Email <a href="mailto:hello@lalac.sg">hello@lalac.sg</a> with the project name — early-access list opens in 2026Q3.</p>
+</article>
+{% endblock %}

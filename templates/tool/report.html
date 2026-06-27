@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}Your P1 ballot odds — {{ site_name }}{% endblock %}
+{% block body %}
+<div class="max-w-3xl mx-auto">
+  <h1 class="text-3xl font-bold">Your ranked P1 shortlist</h1>
+  <p class="mt-2 text-sm text-stone-600">
+    Profile: {{ profile.citizenship }} · {{ profile.gender }} · target year {{ profile.target_year }}
+    {% if profile.postal_code %} · postal {{ profile.postal_code }}{% endif %}
+  </p>
+
+  <div class="mt-6 space-y-4">
+    {% for r in results %}
+    <div class="bg-white p-5 rounded-md border border-stone-200">
+      <div class="flex items-baseline justify-between gap-3">
+        <h2 class="text-xl font-semibold">{{ r.school_name }}</h2>
+        <div class="flex items-center gap-2">
+          {% if r.odds_band == "high" %}
+            <span class="px-2 py-0.5 text-xs font-medium rounded-full bg-emerald-100 text-emerald-800">{{ r.odds_pct }}% · high</span>
+          {% elif r.odds_band == "medium" %}
+            <span class="px-2 py-0.5 text-xs font-medium rounded-full bg-amber-100 text-amber-800">{{ r.odds_pct }}% · medium</span>
+          {% elif r.odds_band == "low" %}
+            <span class="px-2 py-0.5 text-xs font-medium rounded-full bg-orange-100 text-orange-800">{{ r.odds_pct }}% · low</span>
+          {% else %}
+            <span class="px-2 py-0.5 text-xs font-medium rounded-full bg-stone-200 text-stone-700">blocked</span>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="mt-2 text-sm text-stone-600 flex flex-wrap gap-x-3">
+        {% if r.distance_km is not none %}<span>{{ "%.2f"|format(r.distance_km) }} km · {{ r.distance_band }}</span>{% endif %}
+        <span>Entry: Phase {{ r.entry_phase_estimated }}</span>
+        {% if r.historical_indicator_latest %}
+          <span>{{ r.historical_year }} indicator: {{ r.historical_indicator_latest }}</span>
+        {% endif %}
+      </div>
+
+      <ul class="mt-3 list-disc list-inside text-sm text-stone-700 space-y-1">
+        {% for reason in r.reasoning %}
+        <li>{{ reason }}</li>
+        {% endfor %}
+      </ul>
+
+      {% if r.scenario_tweaks %}
+      <div class="mt-3 pt-3 border-t border-stone-100">
+        <p class="text-xs font-medium uppercase tracking-wide text-stone-500">Scenario tweaks</p>
+        <ul class="mt-1 text-sm">
+          {% for t in r.scenario_tweaks %}
+          <li>↗ {{ t.label }} → odds change +{{ t.delta_pct }}pp ({{ t.notes }})</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="mt-10 p-6 bg-emerald-50 rounded-md border border-emerald-200">
+    <h2 class="text-xl font-bold">Want more?</h2>
+    <ul class="mt-3 space-y-2 text-sm">
+      <li>📄 <a href="/buy/pdf" class="font-medium underline">Full PDF report</a> — your shortlist + 3-year projection + scenario maps · S$39</li>
+      <li>🎯 <a href="/buy/session" class="font-medium underline">1:1 strategy session</a> — 45-min Zoom + personalised 3-school plan · S$199</li>
+    </ul>
+    <form action="/email-capture" method="post" class="mt-5 flex flex-wrap gap-2 items-end">
+      <div class="flex-1 min-w-[200px]">
+        <label class="block text-xs font-medium mb-1">Or: email me the report (free)</label>
+        <input type="email" name="email" required placeholder="you@example.com"
+               class="w-full border border-stone-300 rounded-md px-3 py-2">
+      </div>
+      <button type="submit" class="bg-emerald-700 text-white px-5 py-2 rounded-md hover:bg-emerald-800">
+        Send to me
+      </button>
+    </form>
+    <p class="text-xs text-stone-600 mt-2">One report. Occasional updates (max monthly). Unsubscribe anytime.</p>
+  </div>
+
+  <div class="mt-8 p-4 bg-amber-50 border border-amber-200 rounded-md text-sm text-amber-900">
+    <strong>This is a guide, not a guarantee.</strong> Odds are estimates based on
+    historical Phase 2C data and a projection model. MOE alone determines actual outcomes.
+  </div>
+
+  <p class="mt-8 text-sm">
+    <a href="/tool" class="underline">← Adjust profile</a>
+  </p>
+</div>
+{% endblock %}

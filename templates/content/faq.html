@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}FAQ — {{ site_name }}{% endblock %}
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Is Lala C affiliated with MOE?","acceptedAnswer":{"@type":"Answer","text":"No. Lala C is independent. All ballot figures come from MOE public statistics."}},
+    {"@type":"Question","name":"Are the odds guaranteed?","acceptedAnswer":{"@type":"Answer","text":"No. The odds are estimates based on historical data and a projection model. MOE alone determines actual outcomes."}},
+    {"@type":"Question","name":"Why is the basic tool free?","acceptedAnswer":{"@type":"Answer","text":"Because everyone with a kid deserves clear information. Paid tiers (PDF report, 1:1 session) cover the more bespoke work."}},
+    {"@type":"Question","name":"Do you store my postal code?","acceptedAnswer":{"@type":"Answer","text":"No. Form inputs are processed in-memory unless you opt in to email capture."}}
+  ]
+}
+</script>
+{% endblock %}
+{% block body %}
+<article class="max-w-2xl mx-auto prose prose-stone">
+<h1>FAQ</h1>
+
+<h3>Is Lala C affiliated with MOE?</h3>
+<p>No. We are independent. All ballot figures come from MOE public statistics, and we
+cite the source on every figure. We are not affiliated with any school.</p>
+
+<h3>Are the odds guaranteed?</h3>
+<p>No. The odds are estimates based on historical data and a projection model. MOE alone
+determines actual outcomes. Use the tool as one input among many.</p>
+
+<h3>Why is the basic tool free?</h3>
+<p>Because every Singapore family deserves clear information about how P1 admission
+actually works. Paid tiers cover the more bespoke work — printable reports and 1:1
+strategy sessions.</p>
+
+<h3>Do you store my postal code?</h3>
+<p>No. Form inputs are processed in-memory only. If you opt in to email capture, we store
+your email + the report PDF — nothing else.</p>
+
+<h3>How accurate is the projection model?</h3>
+<p>For the next year (year n+1) when we have 5+ years of history, projections are
+usually within ±10 percentage points of actual. For year n+2 and beyond, uncertainty
+grows. We always show a confidence band, never a single number alone.</p>
+
+<h3>Why don't you list every school in Singapore yet?</h3>
+<p>v1 covers the 25 schools where we have the cleanest validated data, anchored on
+Central and East. We're expanding to all ~184 SG primary schools over the next few months.
+If a school you care about is missing, email <a href="mailto:{{ contact_email }}">{{ contact_email }}</a>.</p>
+
+<h3>Will you cover Hong Kong K1 admissions next?</h3>
+<p>That's on the roadmap, yes. But not until SG P1 is rock-solid.</p>
+
+<h3>Can I see the source code or methodology?</h3>
+<p>Methodology is fully documented on the <a href="/methodology">Methodology</a> page.
+The engine is closed-source for now to avoid bad-faith copies; the methodology is open.</p>
+
+<h3>I run a school / I'm from MOE — there's an issue with my data.</h3>
+<p>Email <a href="mailto:{{ takedown_email }}">{{ takedown_email }}</a> with the specific
+URL and concern. We respond within 5 business days and correct verified data errors
+within 48 hours.</p>
+</article>
+{% endblock %}

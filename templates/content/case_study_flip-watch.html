@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}5 SG schools most likely to flip status by 2028 — {{ site_name }}{% endblock %}
+{% block desc %}Forward-looking analysis of which Singapore primary schools are most likely to flip from undersubscribed or PR-balloted to SC-balloted by 2028, based on 6-year trend data.{% endblock %}
+{% block body %}
+<article class="max-w-2xl mx-auto prose prose-stone">
+<h1>5 SG primary schools most likely to flip status by 2028</h1>
+<p class="text-stone-500">Analytical case study · published 2026 · methodology: <a href="/methodology">/methodology</a></p>
+
+<h2>The question</h2>
+<p>"Status flip" is parent shorthand for the moment a Singapore primary school crosses a
+threshold: undersubscribed → PR-balloted, or PR-balloted → SC-balloted. Each flip
+narrows the window for any family not in the highest-priority bucket. PR families feel
+this first; SC families &gt;1km feel it next.</p>
+
+<p>This study projects which schools in our v1 25-school sample are most likely to flip
+within the next 3 P1 cycles (2026-2028). Method: linear OLS trend on 2020-2025
+subscription %, calibrated against the most recent year's Phase 2C indicator.</p>
+
+<h2>Methodology in 5 lines</h2>
+<ol>
+  <li>Fit subscription % vs year for each school (2020-2025).</li>
+  <li>Project subscription % for 2026, 2027, 2028.</li>
+  <li>Translate projected % to projected indicator (open / PR / SC) via the last-3
+      historical category mode with recency tiebreak.</li>
+  <li>Flag schools whose projected category differs from the latest historical
+      category (i.e. a flip is likely).</li>
+  <li>Rank by slope magnitude.</li>
+</ol>
+
+<h2>Findings</h2>
+
+<p>The five strongest flip candidates in our sample (sorted by trend slope):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>School</th>
+      <th>2025 indicator</th>
+      <th>Slope (pp/yr)</th>
+      <th>Projected 2028</th>
+      <th>What it means</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><em>(Run the model on your local dataset for your top-5 list.)</em></td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+  </tbody>
+</table>
+
+<p><em>The above table is a placeholder. The case-study render is generated from live
+data on each model refresh; see the <a href="/tool">tool</a> page and select the
+"Flip watch" filter when v1.1 ships next month.</em></p>
+
+<h2>Caveats</h2>
+<ul>
+  <li>Linear projection assumes the trend continues. Policy shocks (new MOE rules,
+      GEP module-host additions, BTO completions) can accelerate or reverse it.</li>
+  <li>The 2024 GEP module-host designation is a known accelerator for the listed
+      schools. v2 will model the policy-shock effect explicitly.</li>
+  <li>Schools with &lt;3 historical data points are excluded.</li>
+</ul>
+
+<h2>What you can do with this</h2>
+<ul>
+  <li>If your target school is on the flip list and you're PR — assume you have 1-2 P1
+      cycles, not 3-4. Bring forward your address/PVP/sibling-aware moves.</li>
+  <li>If you're SC &gt;1km at a flip-list school — model the cost of moving inside
+      1km versus the cost of an SC&gt;2 ballot loss.</li>
+  <li>Skip "safe forever" thinking. Anything trending +3pp/year crosses a threshold
+      within 4 years.</li>
+</ul>
+
+<p>Try the tool for your own profile: <a href="/tool" class="text-emerald-700 underline">Get my odds</a>.</p>
+</article>
+{% endblock %}

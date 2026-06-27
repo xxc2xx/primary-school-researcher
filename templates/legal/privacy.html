@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Privacy — {{ site_name }}{% endblock %}
+{% block body %}
+<article class="max-w-2xl mx-auto prose prose-stone">
+<h1>Privacy</h1>
+<p>Last updated: 2026-05-23.</p>
+
+<h2>What we collect</h2>
+<ul>
+  <li><strong>Tool form inputs</strong> (citizenship, gender, target year, postal code,
+      phase priorities): processed in-memory to compute your odds. Not stored unless you
+      opt in to email capture.</li>
+  <li><strong>Email address</strong> (only if you opt in): stored to send your report PDF
+      and (max-monthly) updates. One-click unsubscribe in every email.</li>
+  <li><strong>Anonymous analytics</strong> via Plausible: page URL, referrer, country.
+      No cookies. No fingerprinting.</li>
+  <li><strong>Payment data</strong> (only if you purchase): handled by Stripe. We see
+      your email and Stripe customer ID — never your card details.</li>
+</ul>
+
+<h2>What we don't do</h2>
+<ul>
+  <li>We don't sell your data.</li>
+  <li>We don't use Google Analytics, Facebook Pixel, or other third-party trackers.</li>
+  <li>We don't share data with schools or MOE.</li>
+</ul>
+
+<h2>Your rights (PDPA — Singapore)</h2>
+<ul>
+  <li>Request a copy of your data: email <a href="mailto:privacy@lalac.sg">privacy@lalac.sg</a>.</li>
+  <li>Delete your data: email same address.</li>
+  <li>Withdraw email consent: unsubscribe link in any email.</li>
+</ul>
+
+<h2>Retention</h2>
+<ul>
+  <li>Form inputs: not retained after the response is generated.</li>
+  <li>Email signups: retained until you unsubscribe + 30 days for backup hygiene.</li>
+  <li>Purchase records: retained 5 years for accounting (SG IRAS).</li>
+</ul>
+
+<h2>Contact</h2>
+<p>Data-protection officer: Lala C, <a href="mailto:privacy@lalac.sg">privacy@lalac.sg</a>.</p>
+</article>
+{% endblock %}

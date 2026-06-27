@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Disclaimer — {{ site_name }}{% endblock %}
+{% block body %}
+<article class="max-w-2xl mx-auto prose prose-stone">
+<h1>Disclaimer</h1>
+
+<p><strong>{{ site_name }} is not affiliated with the Singapore Ministry of Education
+(MOE) or any school.</strong></p>
+
+<p>This site provides estimates based on historical MOE Phase 2C ballot data and a
+projection model. Estimates are not predictions, guarantees, or admissions advice. MOE
+alone determines actual P1 admission outcomes.</p>
+
+<p>Information is presented in good faith and believed to be accurate at the time of
+publication. We cannot guarantee that all information is current. Users are strongly
+encouraged to verify all figures with MOE directly and to consult schools' own
+information channels before making decisions about education or property purchases.</p>
+
+<p>We do not endorse or rank schools by quality. School-related references on this site
+are factual aggregations of public data.</p>
+
+<p>If you spot a data error, please email
+<a href="mailto:{{ takedown_email }}">{{ takedown_email }}</a> with the specific URL and
+concern. Verified errors are corrected within 48 hours.</p>
+</article>
+{% endblock %}

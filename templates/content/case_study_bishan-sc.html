@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}The Bishan SC decision tree — {{ site_name }}{% endblock %}
+{% block desc %}A decision-tree walkthrough for a Singapore Citizen family in Bishan choosing between Ai Tong, Catholic High, and Kuo Chuan Presbyterian Primary.{% endblock %}
+{% block body %}
+<article class="max-w-2xl mx-auto prose prose-stone">
+<h1>The Bishan SC decision tree: Ai Tong vs Catholic High vs Kuo Chuan</h1>
+<p class="text-stone-500">Analytical case study · published 2026 · synthetic scenario, not personal data</p>
+
+<h2>The scenario</h2>
+<p>Hypothetical: a Singapore Citizen family lives in Bishan, within 1km of three popular
+primary schools — Ai Tong, Catholic High, and Kuo Chuan Presbyterian. Daughter, target
+P1 year 2028. No sibling currently in any of these schools; no parent alumni; no PVP yet.</p>
+
+<p>Where do they apply? The model walks each option.</p>
+
+<h2>Step 1 — Eligibility filter</h2>
+<table>
+  <thead>
+    <tr><th>School</th><th>Gender</th><th>Eligible?</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ai Tong</td><td>Co-ed</td><td>✅</td></tr>
+    <tr><td>Catholic High</td><td>Boys only (Primary)</td><td>❌ — daughter excluded</td></tr>
+    <tr><td>Kuo Chuan Presbyterian</td><td>Co-ed</td><td>✅</td></tr>
+  </tbody>
+</table>
+
+<p>Catholic High drops out immediately. The decision narrows to <strong>Ai Tong vs Kuo Chuan</strong>.</p>
+
+<h2>Step 2 — Historical Phase 2C indicators (2020-2025)</h2>
+<p>Both schools have consistently filled at the SC&lt;1km bucket. For an SC family within
+1km, that means: <strong>both go to ballot in the SC&lt;1km bucket</strong> — neither is
+a walk-in.</p>
+
+<h2>Step 3 — Projection</h2>
+<p>The projection layer compares trend slopes:</p>
+<ul>
+  <li>Ai Tong: SC&lt;1km ballot, subscription ~190%, flat trend</li>
+  <li>Kuo Chuan: SC&lt;1km ballot, subscription rising in recent years</li>
+</ul>
+
+<p>Without 2A1/2A2/2B priority, both schools require winning an SC&lt;1km ballot.
+Realistic odds depend on the bucket-specific applicant-to-vacancy ratio for that year,
+which MOE publishes after the fact.</p>
+
+<h2>Step 4 — What changes the answer</h2>
+<p>The model surfaces these counterfactual scenarios:</p>
+<ol>
+  <li><strong>Move within 800m</strong> of either school: changes nothing for SC&lt;1km
+      ballot odds (still in the same bucket), but might marginally affect tie-break logic.</li>
+  <li><strong>Become a PVP volunteer 40+ hours</strong>: unlocks Phase 2B (≈20 seats
+      reserved). High-leverage move if started 24 months ahead of P1 registration.</li>
+  <li><strong>If a sibling already attends</strong> either school: Phase 2A1 → near-certain.</li>
+  <li><strong>Parent alumni</strong>: same as sibling.</li>
+</ol>
+
+<h2>The takeaway</h2>
+<p>For this profile, the decision isn't really "which school". It's "which Phase 2
+lever do I have time to pull". If you have 18+ months runway, PVP at one school is
+the rational play. If you don't, you're effectively gambling on the ballot at both
+schools and should apply to the one with marginally better recent ballot odds (varies
+year to year — check the tool with current-year data).</p>
+
+<h2>Run this for your own profile</h2>
+<p>The same logic applies to your family. <a href="/tool" class="text-emerald-700 underline">Use the tool</a>
+— enter your address, citizenship, and target year, and you'll get the same decomposition
+across every school in range.</p>
+</article>
+{% endblock %}

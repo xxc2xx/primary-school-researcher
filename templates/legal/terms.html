@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Terms — {{ site_name }}{% endblock %}
+{% block body %}
+<article class="max-w-2xl mx-auto prose prose-stone">
+<h1>Terms of use</h1>
+<p>Last updated: 2026-05-23.</p>
+
+<h2>1. What this is</h2>
+<p>{{ site_name }} is an independent analysis tool that estimates Singapore Primary 1
+ballot odds for individual families based on public MOE statistics. By using this site,
+you agree to these terms.</p>
+
+<h2>2. Not advice; not a guarantee</h2>
+<p>Information on this site is provided "as is" for general informational purposes only.
+It is not legal, financial, educational, or admissions advice. Odds are <em>estimates</em>,
+not guarantees. MOE alone determines actual admission outcomes.</p>
+
+<h2>3. Independence</h2>
+<p>{{ site_name }} is not affiliated with the Singapore Ministry of Education or any
+individual school. References to schools, programs, and policies are factual only.</p>
+
+<h2>4. Paid products</h2>
+<ul>
+  <li>The basic odds calculator is free.</li>
+  <li>Paid PDF reports: S$39. 7-day money-back guarantee if unused.</li>
+  <li>1:1 strategy sessions: S$199. Non-refundable once the session has been delivered.</li>
+</ul>
+
+<h2>5. Liability</h2>
+<p>To the maximum extent permitted by Singapore law, {{ site_name }} disclaims liability
+for any direct, indirect, incidental, or consequential losses arising from use of this
+site or its outputs. Use at your own risk.</p>
+
+<h2>6. Intellectual property</h2>
+<p>Site content, analysis, and brand are © Lala C unless otherwise noted. MOE statistics
+referenced are public domain; please cite MOE directly when re-using.</p>
+
+<h2>7. Changes</h2>
+<p>We may update these terms. Material changes will be announced on this page with a
+revised "last updated" date.</p>
+
+<h2>8. Governing law</h2>
+<p>These terms are governed by the laws of the Republic of Singapore.</p>
+
+<h2>9. Contact</h2>
+<p><a href="mailto:{{ contact_email }}">{{ contact_email }}</a>.</p>
+</article>
+{% endblock %}
