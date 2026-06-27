@@ -14,8 +14,9 @@ fail() {
   exit 1
 }
 
-# 1. Block any .env file
-echo "$staged" | grep -E '(^|/)\.env(\..*)?$' && fail "tried to commit a .env file"
+# 1. Block any .env file (but allow .env.template / .env.example / .env.sample)
+bad_envs=$(echo "$staged" | grep -E '(^|/)\.env(\..*)?$' | grep -Ev '\.(template|example|sample)$' || true)
+[ -n "$bad_envs" ] && fail "tried to commit a .env file: $bad_envs"
 
 # 2. Scan staged content for common secret patterns
 # Read only the staged hunks (not the whole file) for performance.
